@@ -37,6 +37,11 @@ re.match(text)
 ```
 where `text` is the target string. This function will traverse the NFA via breadth first search with queues.
 
+## Examples
+
+- `.*a` matches any string ending with `a`
+- `th(e|ere|ose)` matches `the`, `there`, and `those`
+
 ## Conversion from regex to NFA
 
 The following picture summarizes my algorithm:
