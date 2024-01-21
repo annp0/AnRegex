@@ -35,7 +35,7 @@ This finishes the initialization. After initialization the user will be able to 
 ```
 re.match(text)
 ```
-where `text` is the target string.
+where `text` is the target string. This function will traverse the NFA via breadth first search with queues.
 
 ## Conversion from regex to NFA
 
