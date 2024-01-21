@@ -36,3 +36,9 @@ This finishes the initialization. After initialization the user will be able to 
 re.match(text)
 ```
 where `text` is the target string.
+
+## Conversion from regex to NFA
+
+The following picture summarizes my algorithm:
+
+![](image.jpeg)
